@@ -3,8 +3,8 @@ package com.ym.deambulation.model.app;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
-import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
+import android.support.v7.widget.Toolbar;
 
 import com.ym.deambulation.R;
 import com.ym.deambulation.base.BaseFragment;
@@ -41,7 +41,7 @@ public class HomeFragment extends BaseFragment implements SensorEventListener {
     @Override
     public void initData() {
         super.initData();
-        //设置透明
+        //设置渐变色状态栏
         StatusBarUtil.setTransparentForWindow(mActivity, mToolbar);
 //        //绑定计步器
 //        StepUtils.init(getActivity(), this);

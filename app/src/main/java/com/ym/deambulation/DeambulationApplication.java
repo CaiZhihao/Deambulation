@@ -80,7 +80,7 @@ public class DeambulationApplication extends Application {
     /**
      * 添加Activity
      *
-     * @param activity
+     * @param activity activity
      */
     public void addActivity(Activity activity) {
         if (mActivities == null) {
@@ -92,7 +92,7 @@ public class DeambulationApplication extends Application {
     /**
      * 删除Activity
      *
-     * @param activity
+     * @param activity activity
      */
     public void removeActivity(Activity activity) {
         if (mActivities == null) {
